@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Демонстрация: форма</title>
+	</head>
+	<body>
+	  <form action="">
+	  	<input type="number" min="-5" max="10" value="5"/>
+	  	<input type="range" min="-5" max="10" value="5"/>
+	  	<fieldset>
+	      <legend>User data</legend>
+	  	  <input type="text" name="t" value="John"/><br/>
+	  	  <input readonly type="text" name="t2" value="John"/><br/>
+	  	  <input type="password" name="p"/><br/>
+	  	</fieldset>
+	  	<input type="checkbox" id="chk" name="c" checked/>
+	  	<label for="chk">Are you sure?</label><br/>
+	  	<input type="submit"/>
+	  	<input type="submit" value="Sign-in"/><br/>
+	  	<input type="reset"/><br/>
+	  	<input type="image" src="/images/ball.gif"/>
+	  	<input disabled type="button" value="Button"/><br/>
+	  	<button>Yet another button</button><br/>
+	  	<input type="radio" name="r"/>
+	  	<input type="radio" name="r" checked/><br/>
+	  	<select name="s">
+	  	  <option>HTML</option>
+	  	  <option>CSS</option>
+	  	  <option>JS</option>
+	  	</select><br/>
+	  	<textarea name="ta"></textarea><br/>
+	  	<input type="file" name="upload"/>
+	  </form>
+	</body>
+</html>
