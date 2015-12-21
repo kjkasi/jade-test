@@ -1,0 +1,6 @@
+p, h1, h3{font-family: Arial;}
+h1{text-align: center;}
+section:first-letter{font-size: 150%;}
+section > p {text-indent: 50px; line-height: 140%; text-align: justify;}
+aside{text-align: right;}
+div{text-align: center;}
